@@ -1,3 +1,5 @@
+with open("README.md", "r") as fh:
+	long_description = fh.read()
 from setuptools import find_packages, setup
 setup(
     name = "rustypy",
