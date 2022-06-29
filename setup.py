@@ -5,7 +5,7 @@ setup(
     name = "rustypy",
     version = "0.0.1",
     author = "Eddie Mccoy",
-    author_email = "eddie998199@yahoo.co.uk"
+    author_email = "eddie998199@yahoo.co.uk",
     description = "Calculation of fibonacci number",
     long_description = "A basic library that calculates fibonacci numbers",
     long_description_content_type = "text/markdown",
