@@ -16,7 +16,12 @@ setup(
         "Development Status :: 4 - Beta",
         "Programming Language :: Python :: 3",
         "Operating System :: OS Independent",
-        ],
+        ], 
+	entry_points = {
+		'console_scripts': [
+			'fib-number = rustypy.cmd.fib_numb:fib_numb',
+		],
+	},
     python_requires ='>=3',
     test_require = ['pytest'],
         )
